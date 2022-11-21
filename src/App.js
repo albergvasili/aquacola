@@ -2,15 +2,20 @@ import './App.css';
 
 const Header = (props) => {
   return (
-    <div>
+    <div className='test'>
       This is the header
     </div>
   );
 };
 
 const Columns = (props) => {
+  const style = {
+    display: 'flex',
+    flexDirection: 'row',
+  }
+
   return (
-    <div>
+    <div style={style} className='test'>
         <Column />
         <Column />
         <Column />
@@ -19,8 +24,12 @@ const Columns = (props) => {
 };
 
 const Column = (props) => {
+  const style = {
+    flexGrow: 1
+  }
+
   return (
-    <div>
+    <div style={style} className='test'>
       This is a column
     </div>
   );
