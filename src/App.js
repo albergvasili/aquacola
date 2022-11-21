@@ -1,31 +1,35 @@
 import './App.css';
 
 const Header = (props) => {
+  const sampleHeader = 'This is a header';
   return (
     <div className='test flex'>
-      This is the header
+        <Column content={sampleHeader}/>
+        <Column content={sampleHeader}/>
+        <Column content={sampleHeader}/>
     </div>
   );
 };
 
 const Columns = (props) => {
-    return (
+  const sampleText = 'This is a column'
+  return (
     <div className='test flex'>
-        <Column />
-        <Column />
-        <Column />
+        <Column content={sampleText}/>
+        <Column content={sampleText}/>
+        <Column content={sampleText}/>
     </div>
   );
 };
 
-const Column = (props) => {
+const Column = ({content}) => {
   const style = {
     flexGrow: 1
   }
 
   return (
     <div style={style} className='test'>
-      This is a column
+      {content}
     </div>
   );
 };
