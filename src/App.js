@@ -5,7 +5,17 @@ const Header = (props) => {
     <div>
       This is the header
     </div>
-  )
+  );
+};
+
+const Columns = (props) => {
+  return (
+    <div>
+        <Column />
+        <Column />
+        <Column />
+    </div>
+  );
 };
 
 const Column = (props) => {
@@ -13,19 +23,17 @@ const Column = (props) => {
     <div>
       This is a column
     </div>
-  )
+  );
 };
-
-
 
 const App = (props) => {
   return (
     <>
       <h1> Title </h1>
       <Header />
-      <Column />
+      <Columns/>
     </>
  );
-}
+};
 
 export default App;
