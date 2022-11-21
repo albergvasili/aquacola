@@ -2,20 +2,15 @@ import './App.css';
 
 const Header = (props) => {
   return (
-    <div className='test'>
+    <div className='test flex'>
       This is the header
     </div>
   );
 };
 
 const Columns = (props) => {
-  const style = {
-    display: 'flex',
-    flexDirection: 'row',
-  }
-
-  return (
-    <div style={style} className='test'>
+    return (
+    <div className='test flex'>
         <Column />
         <Column />
         <Column />

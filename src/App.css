@@ -1,3 +1,11 @@
 .test {
   border: solid red 1em;
+  padding: 1px;
 }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+
