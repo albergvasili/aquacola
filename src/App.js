@@ -3,7 +3,7 @@ import './App.css';
 const Header = (props) => {
   const sampleHeader = 'This is a header';
   return (
-    <div className='test flex'>
+    <div className='test flex-container'>
         <Column children={sampleHeader}/>
         <Column children={sampleHeader}/>
         <Column children={sampleHeader}/>
@@ -14,7 +14,7 @@ const Header = (props) => {
 const Columns = (props) => {
   const sampleText = 'This is a column'
   return (
-    <div className='test flex'>
+    <div className='test flex-container'>
       <Column>
         <FirstOption/>
       </Column>
@@ -25,12 +25,9 @@ const Columns = (props) => {
 };
 
 const Column = ({children}) => {
-  const style = {
-    flexGrow: 1
-  };
 
   return (
-    <div style={style} className='test'>
+    <div  className='test flex-item'>
       {children}
     </div>
   );
@@ -38,7 +35,7 @@ const Column = ({children}) => {
 
 const FirstOption = ({props}) => {
   return (
-    <SubSection>
+    <SubSection className='top-left'>
       <TopLeft/>
     </SubSection>
   );

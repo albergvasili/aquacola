@@ -3,9 +3,17 @@
   padding: 1px;
 }
 
-.flex {
+.flex-container {
     display: flex;
     flex-direction: row;
-  }
+}
 
+.flex-item {
+  flex-grow: 1;
+}
 
+.top-left {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
