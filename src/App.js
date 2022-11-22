@@ -16,7 +16,7 @@ const Columns = (props) => {
   return (
     <div className='test flex'>
       <Column>
-        <SubSection/>
+        <FirstOption/>
       </Column>
       <Column children={sampleText}/>
       <Column children={sampleText}/>
@@ -27,7 +27,7 @@ const Columns = (props) => {
 const Column = ({children}) => {
   const style = {
     flexGrow: 1
-  }
+  };
 
   return (
     <div style={style} className='test'>
@@ -36,10 +36,18 @@ const Column = ({children}) => {
   );
 };
 
-const SubSection = ({className}) => {
+const FirstOption = ({props}) => {
+  return (
+    <SubSection>
+      <TopLeft/>
+    </SubSection>
+  );
+};
+
+const SubSection = ({className, children}) => {
   return (
     <div className={className}>
-      <TopLeft/>
+      {children}
     </div>
   );
 };
@@ -61,7 +69,7 @@ const App = (props) => {
   return (
     <>
       <h1> Title </h1>
-      <Header />
+      <Header/>
       <Columns/>
     </>
  );
