@@ -36,11 +36,24 @@ const Column = ({children}) => {
   );
 };
 
-const SubSection = (props) => {
+const SubSection = ({className}) => {
   return (
-    <div className='topLeft'>
-     This is a subsection
+    <div className={className}>
+      <TopLeft/>
     </div>
+  );
+};
+
+const TopLeft = () => {
+  return (
+    <>
+      <div>Tomar</div>
+      <div>Cocinar</div>
+      <div className='variable'>Value</div>
+      <div className='variable'>Value</div>
+      <div className='constant'>Value</div>
+      <div className='constant'>value</div>
+    </>
   );
 };
 
