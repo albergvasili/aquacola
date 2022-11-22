@@ -4,9 +4,9 @@ const Header = (props) => {
   const sampleHeader = 'This is a header';
   return (
     <div className='test flex'>
-        <Column content={sampleHeader}/>
-        <Column content={sampleHeader}/>
-        <Column content={sampleHeader}/>
+        <Column children={sampleHeader}/>
+        <Column children={sampleHeader}/>
+        <Column children={sampleHeader}/>
     </div>
   );
 };
@@ -15,21 +15,31 @@ const Columns = (props) => {
   const sampleText = 'This is a column'
   return (
     <div className='test flex'>
-        <Column content={sampleText}/>
-        <Column content={sampleText}/>
-        <Column content={sampleText}/>
+      <Column>
+        <SubSection/>
+      </Column>
+      <Column children={sampleText}/>
+      <Column children={sampleText}/>
     </div>
   );
 };
 
-const Column = ({content}) => {
+const Column = ({children}) => {
   const style = {
     flexGrow: 1
   }
 
   return (
     <div style={style} className='test'>
-      {content}
+      {children}
+    </div>
+  );
+};
+
+const SubSection = (props) => {
+  return (
+    <div className='topLeft'>
+     This is a subsection
     </div>
   );
 };
