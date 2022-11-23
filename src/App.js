@@ -25,7 +25,6 @@ const Columns = (props) => {
 };
 
 const Column = ({children}) => {
-
   return (
     <div  className='test flex-item'>
       {children}
@@ -35,30 +34,21 @@ const Column = ({children}) => {
 
 const FirstOption = ({props}) => {
   return (
-    <SubSection className='top-left'>
-      <TopLeft/>
-    </SubSection>
+    <TopLeft/>
   );
 };
 
-const SubSection = ({className, children}) => {
-  return (
-    <div className={className}>
-      {children}
-    </div>
-  );
-};
 
 const TopLeft = () => {
   return (
-    <>
+    <div className='top-left'>
       <div className='two'>Tomar</div>
       <div className='three'>Cocinar</div>
       <div className='five variable'>Value</div>
       <div className='six variable'>Value</div>
       <div className='seven constant'>Value</div>
       <div className='eight constant'>value</div>
-    </>
+    </div>
   );
 };
 
