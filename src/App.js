@@ -52,12 +52,12 @@ const SubSection = ({className, children}) => {
 const TopLeft = () => {
   return (
     <>
-      <div>Tomar</div>
-      <div>Cocinar</div>
-      <div className='variable'>Value</div>
-      <div className='variable'>Value</div>
-      <div className='constant'>Value</div>
-      <div className='constant'>value</div>
+      <div className='two'>Tomar</div>
+      <div className='three'>Cocinar</div>
+      <div className='five variable'>Value</div>
+      <div className='six variable'>Value</div>
+      <div className='seven constant'>Value</div>
+      <div className='eight constant'>value</div>
     </>
   );
 };

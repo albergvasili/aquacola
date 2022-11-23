@@ -16,4 +16,32 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+}
+
+.two{
+  grid-area: a;
+}
+
+.three {
+  grid-area: d;
+}
+
+.five {
+  grid-area: b;
+}
+
+.six {
+  grid-area: e;
+}
+
+.seven {
+  grid-area: h;
+}
+
+.eight {
+  grid-area: i;
 }
