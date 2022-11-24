@@ -1,47 +1,14 @@
 import './App.css';
 
-const Header = (props) => {
-  const sampleHeader = 'This is a header';
+const FirstHeader = () => {
   return (
-    <div className='test flex-container'>
-        <Column children={sampleHeader}/>
-        <Column children={sampleHeader}/>
-        <Column children={sampleHeader}/>
-    </div>
+      <div className='test'>Testing</div>
   );
 };
-
-const Columns = (props) => {
-  const sampleText = 'This is a column'
-  return (
-    <div className='test flex-container'>
-      <Column>
-        <FirstOption/>
-      </Column>
-      <Column children={sampleText}/>
-      <Column children={sampleText}/>
-    </div>
-  );
-};
-
-const Column = ({children}) => {
-  return (
-    <div  className='test flex-item'>
-      {children}
-    </div>
-  );
-};
-
-const FirstOption = ({props}) => {
-  return (
-    <TopLeft/>
-  );
-};
-
 
 const TopLeft = () => {
   return (
-    <div className='top-left'>
+    <div className='top-left test'>
       <div className='two'>Tomar</div>
       <div className='three'>Cocinar</div>
       <div className='five variable'>Value</div>
@@ -52,12 +19,26 @@ const TopLeft = () => {
   );
 };
 
-const App = (props) => {
+const FirstOption = () => {
+  return (
+    <TopLeft/>
+  );
+};
+
+const TableLeft = () => {
+  return (
+    <>
+      <FirstHeader/>
+      <FirstOption/>
+    </>
+  );
+};
+    
+const App = () => {
   return (
     <>
       <h1> Title </h1>
-      <Header/>
-      <Columns/>
+      <TableLeft />
     </>
  );
 };
