@@ -2,7 +2,7 @@ import './App.css';
 
 const FirstHeader = () => {
   return (
-      <div className='test'>Testing</div>
+      <div className='test'>Comprar Agua</div>
   );
 };
 
@@ -31,6 +31,17 @@ const TopLeft = () => {
   );
 };
 
+const CenterLeft = () => {
+  return(
+    <div className='test' >
+      <div className='four'> 1Gal = 6bot</div>
+      <div className='forty-one'>ONE(1)</div>
+      <div className='nine'> 30 dias x $6 = $150</div>
+      <div className='twelve'>FIFTY(50%)</div>
+    </div>
+  );
+};
+
 const TopCenter = () => {
   return (
     <div className='test'>TopCenter</div>
@@ -48,6 +59,7 @@ const FirstOption = () => {
     <div className='flex-column'>
       <FirstHeader/>
       <TopLeft/>
+      <CenterLeft/>
     </div>
   );
 };
