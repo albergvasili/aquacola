@@ -8,7 +8,7 @@ const FirstHeader = () => {
 
 const SecondHeader = () => {
   return (
-      <div className='test'>Testing Second</div>
+      <div className='test'>Programa de Ayuda</div>
   );
 };
 
@@ -74,7 +74,19 @@ const BottomLeft = () => {
 
 const TopCenter = () => {
   return (
-    <div className='test'>TopCenter</div>
+    <div className='test'>
+      <div className='fifteen'>100%</div>
+      <ul>
+        <li className='sixteen'>
+          Tres condiciones:
+          <ol className='sixteen'>
+            <li className='seventeen'>Dueños de casa</li>
+            <li className='eihteen'>Querer agua pure</li>
+            <li className='nineteen'>Lista de gastos(Jabones)</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
   );
 };
 
