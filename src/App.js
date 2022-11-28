@@ -6,6 +6,13 @@ const FirstHeader = () => {
   );
 };
 
+const SecondHeader = () => {
+  return (
+      <div className='test'>Testing second</div>
+  );
+};
+
+
 const TopLeft = () => {
   return (
     <div className='top-left test'>
@@ -19,26 +26,39 @@ const TopLeft = () => {
   );
 };
 
-const FirstOption = () => {
+const TopCenter = () => {
   return (
-    <TopLeft/>
+    <div className='test'> >TopCenter</div>
   );
 };
 
-const TableLeft = () => {
+
+const FirstOption = () => {
   return (
-    <>
+    <div className='flex-column'>
       <FirstHeader/>
-      <FirstOption/>
-    </>
+      <TopLeft/>
+    </div>
   );
 };
-    
+
+const SecondOption = () => {
+  return (
+    <div className='flex-column'>
+      <SecondHeader/>
+      <TopCenter/>
+    </div>
+  );
+};
+
 const App = () => {
   return (
     <>
       <h1> Title </h1>
-      <TableLeft />
+      <div className='test flex-row'>
+        <FirstOption/>
+        <SecondOption/>
+      </div>
     </>
  );
 };
