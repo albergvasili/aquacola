@@ -12,6 +12,11 @@ const SecondHeader = () => {
   );
 };
 
+const ThirdHeader = () => {
+  return (
+      <div className='test'>Testing third</div>
+  );
+};
 
 const TopLeft = () => {
   return (
@@ -28,10 +33,15 @@ const TopLeft = () => {
 
 const TopCenter = () => {
   return (
-    <div className='test'> >TopCenter</div>
+    <div className='test'>TopCenter</div>
   );
 };
 
+const TopRight = () => {
+  return (
+    <div className='test'>TopRight</div>
+  );
+};
 
 const FirstOption = () => {
   return (
@@ -51,6 +61,16 @@ const SecondOption = () => {
   );
 };
 
+const ThirdOption = () => {
+  return (
+    <div className='flex-column'>
+      <ThirdHeader/>
+      <TopRight/>
+    </div>
+  );
+};
+
+
 const App = () => {
   return (
     <>
@@ -58,6 +78,7 @@ const App = () => {
       <div className='test flex-row'>
         <FirstOption/>
         <SecondOption/>
+        <ThirdOption/>
       </div>
     </>
  );
