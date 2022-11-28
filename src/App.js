@@ -8,7 +8,7 @@ const FirstHeader = () => {
 
 const SecondHeader = () => {
   return (
-      <div className='test'>Testing second</div>
+      <div className='test'>Testing Second</div>
   );
 };
 
@@ -42,6 +42,36 @@ const CenterLeft = () => {
   );
 };
 
+const BottomLeft = () => {
+  return(
+    <div className='test' >
+      <fieldset className='flex-column thirteen'>
+        <legend>Lista:</legend>
+          <label>
+            <input type='checkbox'/>
+            Salud
+          </label>
+          <label>
+            <input type='checkbox'/>
+            Seguridad
+          </label>
+          <label>
+            <input type='checkbox'/>
+            Ahorro
+          </label>
+          <label>
+            <input type='checkbox'/>
+            Tranquilidad
+          </label>
+          <label>
+            <input type='checkbox'/>
+            Otros
+          </label>
+      </fieldset>
+    </div>
+  );
+};
+
 const TopCenter = () => {
   return (
     <div className='test'>TopCenter</div>
@@ -60,6 +90,7 @@ const FirstOption = () => {
       <FirstHeader/>
       <TopLeft/>
       <CenterLeft/>
+      <BottomLeft/>
     </div>
   );
 };
