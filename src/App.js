@@ -90,6 +90,18 @@ const TopCenter = () => {
   );
 };
 
+const CenterCenter = () => {
+  return (
+    <div className='test'>
+      <div className='twenty'>Lavanderia</div>
+      <div className='twentythree'>Values</div>
+      <div className='twentyone'>Cocina(limpieza)</div>
+      <div className='fortyfive'>TWO</div>
+      <div className='twentyfour'>Values</div>
+    </div>
+  );
+};
+
 const TopRight = () => {
   return (
     <div className='test'>TopRight</div>
@@ -112,6 +124,7 @@ const SecondOption = () => {
     <div className='flex-column'>
       <SecondHeader/>
       <TopCenter/>
+      <CenterCenter/>
     </div>
   );
 };
