@@ -102,6 +102,18 @@ const CenterCenter = () => {
   );
 };
 
+const BottomCenter = () => {
+  return (
+    <div className='test'>
+      <div className='twentytwo'>Baño</div>
+      <div className='twentyfive'>Values</div>
+      <div className='twentysix'>=#$XXX</div>
+      <span className='twentyseven'>Real</span>
+      <span className='twentyeight'>Fijo</span>
+    </div>
+  );
+};
+
 const TopRight = () => {
   return (
     <div className='test'>TopRight</div>
@@ -125,6 +137,7 @@ const SecondOption = () => {
       <SecondHeader/>
       <TopCenter/>
       <CenterCenter/>
+      <BottomCenter/>
     </div>
   );
 };
