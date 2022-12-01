@@ -14,7 +14,7 @@ const SecondHeader = () => {
 
 const ThirdHeader = () => {
   return (
-      <div className='test'>Testing third</div>
+      <div className='test'>Tienda</div>
   );
 };
 
@@ -116,7 +116,20 @@ const BottomCenter = () => {
 
 const TopRight = () => {
   return (
-    <div className='test'>TopRight</div>
+    <div className='test'>
+      <div className='thirty'>$150</div>
+      <div className='thirtyone'>$value</div>
+      <div className='thirtyone'>$value x</div>
+      <div className='thirtytwo'>Toda la vida</div>
+      <div className='thirtyfour'>Nada</div>
+    </div>
+  );
+};
+
+const CenterRight = () => {
+  return (
+    <div className='test'>
+    </div>
   );
 };
 
@@ -147,10 +160,10 @@ const ThirdOption = () => {
     <div className='flex-column'>
       <ThirdHeader/>
       <TopRight/>
+      <CenterRight/>
     </div>
   );
 };
-
 
 const App = () => {
   return (
