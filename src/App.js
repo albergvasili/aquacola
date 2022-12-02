@@ -166,7 +166,7 @@ const BottomRight = () => {
 
 const FirstOption = () => {
   return (
-    <div className='flex-column'>
+    <div className='flex-column flex-item'>
       <FirstHeader/>
       <TopLeft/>
       <CenterLeft/>
@@ -177,7 +177,7 @@ const FirstOption = () => {
 
 const SecondOption = () => {
   return (
-    <div className='flex-column'>
+    <div className='flex-column flex-item'>
       <SecondHeader/>
       <TopCenter/>
       <CenterCenter/>
@@ -188,7 +188,7 @@ const SecondOption = () => {
 
 const ThirdOption = () => {
   return (
-    <div className='flex-column'>
+    <div className='flex-column flex-item'>
       <ThirdHeader/>
       <TopRight/>
       <CenterRight/>
