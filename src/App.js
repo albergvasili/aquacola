@@ -20,7 +20,7 @@ const ThirdHeader = () => {
 
 const TopLeft = () => {
   return (
-    <div className='top-left test'>
+    <div className='three-by-three test'>
       <div className='two'>Tomar</div>
       <div className='three'>Cocinar</div>
       <div className='five variable'>Value</div>
@@ -128,7 +128,7 @@ const TopRight = () => {
 
 const CenterRight = () => {
   return (
-    <div className='test'>
+    <div className='test three-by-three'>
       <span className='thirtyfive'>Value x </span>
       <span className='thirtysix'>12 meses </span>
       <span className='thirtyseven'>= value </span>
@@ -138,8 +138,10 @@ const CenterRight = () => {
       <span className='forty'>= value </span>
       <br/>
       <span className='fortyeight'>153 /</span>
-      <span className='fiftyone'>LC </span>
-      <span className='fiftytwo'>$7.690 </span>
+        <div className="fiftyone-two">
+          <span>LC </span>
+          <span>$7.690 </span>
+        </div>
       <span className='fiftyfive'>TODO</span>
     </div>
   );
