@@ -145,6 +145,23 @@ const CenterRight = () => {
   );
 };
 
+const BottomRight = () => {
+  return (
+    <div className='test'>
+      <div className='fiftysix'>0 Tax</div>
+      <div className='fiftyseven'>0 DP</div>
+      <div className='fiftyeight'>0 Instalacion</div>
+      <div className='fiftynine'>Aho. $1200 aprox.</div>
+      <div className='house'>
+        HOUSE DIAGRAM
+      </div>
+      <span className='fortyfour'>$150 + </span>
+      <span className='fortysix'>value </span>
+      <span className='fortyseven'>= value</span>
+    </div>
+  );
+};
+
 const FirstOption = () => {
   return (
     <div className='flex-column'>
@@ -173,6 +190,7 @@ const ThirdOption = () => {
       <ThirdHeader/>
       <TopRight/>
       <CenterRight/>
+      <BottomRight/>
     </div>
   );
 };
