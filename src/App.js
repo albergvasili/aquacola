@@ -108,8 +108,8 @@ const BottomCenter = () => {
       <div className='twentytwo'>Baño</div>
       <div className='twentyfive'>Values</div>
       <div className='twentysix'>=#$XXX</div>
-      <span className='twentyseven'>Real</span>
-      <span className='twentyeight'>Fijo</span>
+      <div className='twentyseven'>Real</div>
+      <div className='twentyeight'>Fijo</div>
     </div>
   );
 };
@@ -129,20 +129,20 @@ const TopRight = () => {
 const CenterRight = () => {
   return (
     <div className='test three-by-three'>
-      <span className='thirtyfive'>Value x </span>
-      <span className='thirtysix'>12 meses </span>
-      <span className='thirtyseven'>= value </span>
+      <div className='thirtyfive'>Value x </div>
+      <div className='thirtysix'>12 meses </div>
+      <div className='thirtyseven'>= value </div>
       <br/>
-      <span className='thirtyeight'>Value x </span>
-      <span className='thirtynine'>10 años </span>
-      <span className='forty'>= value </span>
+      <div className='thirtyeight'>Value x </div>
+      <div className='thirtynine'>10 años </div>
+      <div className='forty'>= value </div>
       <br/>
-      <span className='fortyeight'>153 /</span>
+      <div className='fortyeight'>153 /</div>
         <div className="fiftyone-two">
-          <span>LC </span>
-          <span>$7.690 </span>
+          <div >LC </div>
+          <div >$7.690 </div>
         </div>
-      <span className='fiftyfive'>TODO</span>
+      <div className='fiftyfive'>TODO</div>
     </div>
   );
 };
@@ -157,9 +157,9 @@ const BottomRight = () => {
       <div className='house'>
         HOUSE DIAGRAM
       </div>
-      <span className='fortyfour'>$150 + </span>
-      <span className='fortysix'>value </span>
-      <span className='fortyseven'>= value</span>
+      <div className='fortyfour'>$150 + </div>
+      <div className='fortysix'>value </div>
+      <div className='fortyseven'>= value</div>
     </div>
   );
 };
