@@ -129,6 +129,18 @@ const TopRight = () => {
 const CenterRight = () => {
   return (
     <div className='test'>
+      <span className='thirtyfive'>Value x </span>
+      <span className='thirtysix'>12 meses </span>
+      <span className='thirtyseven'>= value </span>
+      <br/>
+      <span className='thirtyeight'>Value x </span>
+      <span className='thirtynine'>10 años </span>
+      <span className='forty'>= value </span>
+      <br/>
+      <span className='fortyeight'>153 /</span>
+      <span className='fiftyone'>LC </span>
+      <span className='fiftytwo'>$7.690 </span>
+      <span className='fiftyfive'>TODO</span>
     </div>
   );
 };
