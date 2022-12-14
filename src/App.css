@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 .test {
   border: solid red 1em;
   padding: 1px;

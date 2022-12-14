@@ -200,7 +200,7 @@ const ThirdOption = () => {
 const App = () => {
   return (
     <>
-      <h1> Title </h1>
+      <h1> Recomendaciones </h1>
       <div className='test flex-row'>
         <FirstOption/>
         <SecondOption/>
