@@ -20,7 +20,7 @@ const ThirdHeader = () => {
 
 const TopLeft = () => {
   return (
-    <div className='three-by-three test'>
+    <div className='three-by-three test flex-item'>
       <div className='two'>Tomar</div>
       <div className='three'>Cocinar</div>
       <div className='five variable'>Value</div>
@@ -33,7 +33,7 @@ const TopLeft = () => {
 
 const CenterLeft = () => {
   return(
-    <div className='test' >
+    <div className='test flex-item' >
       <div className='four'> 1Gal = 6bot</div>
       <div className='forty-one'>ONE(1)</div>
       <div className='nine'> 30 dias x $6 = $150</div>
@@ -44,7 +44,7 @@ const CenterLeft = () => {
 
 const BottomLeft = () => {
   return(
-    <div className='test' >
+    <div className='test flex-item' >
       <fieldset className='flex-column thirteen'>
         <legend>Lista:</legend>
           <label>
@@ -74,7 +74,7 @@ const BottomLeft = () => {
 
 const TopCenter = () => {
   return (
-    <div className='test'>
+    <div className='test flex-item'>
       <div className='fifteen'>100%</div>
       <ul>
         <li className='sixteen'>
@@ -92,7 +92,7 @@ const TopCenter = () => {
 
 const CenterCenter = () => {
   return (
-    <div className='test'>
+    <div className='test flex-item'>
       <div className='twenty'>Lavanderia</div>
       <div className='twentythree'>Values</div>
       <div className='twentyone'>Cocina(limpieza)</div>
@@ -104,7 +104,7 @@ const CenterCenter = () => {
 
 const BottomCenter = () => {
   return (
-    <div className='test'>
+    <div className='test flex-item'>
       <div className='twentytwo'>Baño</div>
       <div className='twentyfive'>Values</div>
       <div className='twentysix'>=#$XXX</div>
@@ -116,7 +116,7 @@ const BottomCenter = () => {
 
 const TopRight = () => {
   return (
-    <div className='test'>
+    <div className='test flex-item'>
       <div className='thirty'>$150</div>
       <div className='thirtyone'>$value</div>
       <div className='thirtyone'>$value x</div>
@@ -128,7 +128,7 @@ const TopRight = () => {
 
 const CenterRight = () => {
   return (
-    <div className='test three-by-three'>
+    <div className='test three-by-three flex-item'>
       <div className='thirtyfive'>Value x </div>
       <div className='thirtysix'>12 meses </div>
       <div className='thirtyseven'>= value </div>
@@ -149,7 +149,7 @@ const CenterRight = () => {
 
 const BottomRight = () => {
   return (
-    <div className='test'>
+    <div className='test flex-item'>
       <div className='fiftysix'>0 Tax</div>
       <div className='fiftyseven'>0 DP</div>
       <div className='fiftyeight'>0 Instalacion</div>
