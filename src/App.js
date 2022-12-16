@@ -2,19 +2,19 @@ import './App.css';
 
 const FirstHeader = () => {
   return (
-      <div className='test'>Comprar Agua</div>
+      <div className='main-header'>Comprar Agua</div>
   );
 };
 
 const SecondHeader = () => {
   return (
-      <div className='test'>Programa de Ayuda</div>
+      <div className='main-header'>Programa de Ayuda</div>
   );
 };
 
 const ThirdHeader = () => {
   return (
-      <div className='test'>Tienda</div>
+      <div className='main-header'>Tienda</div>
   );
 };
 
@@ -166,7 +166,7 @@ const BottomRight = () => {
 
 const FirstOption = () => {
   return (
-    <div className='flex-column flex-item'>
+    <div className='flex-column flex-item main-container'>
       <FirstHeader/>
       <TopLeft/>
       <CenterLeft/>
@@ -177,7 +177,7 @@ const FirstOption = () => {
 
 const SecondOption = () => {
   return (
-    <div className='flex-column flex-item'>
+    <div className='flex-column flex-item main-container'>
       <SecondHeader/>
       <TopCenter/>
       <CenterCenter/>
@@ -188,7 +188,7 @@ const SecondOption = () => {
 
 const ThirdOption = () => {
   return (
-    <div className='flex-column flex-item'>
+    <div className='flex-column flex-item main-container'>
       <ThirdHeader/>
       <TopRight/>
       <CenterRight/>
@@ -201,7 +201,7 @@ const App = () => {
   return (
     <>
       <h1> Recomendaciones </h1>
-      <div className='test flex-row'>
+      <div className='main-container flex-row'>
         <FirstOption/>
         <SecondOption/>
         <ThirdOption/>
